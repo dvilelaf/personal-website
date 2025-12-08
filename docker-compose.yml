@@ -1,0 +1,9 @@
+services:
+  web:
+    image: dvilela/personal-website:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "${PORT:-8090}:80"
+    restart: unless-stopped

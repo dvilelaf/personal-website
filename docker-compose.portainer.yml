@@ -1,0 +1,7 @@
+# Production Docker Compose for Portainer (no build)
+services:
+  web:
+    image: dvilela/personal-website:latest
+    ports:
+      - "${PORT:-8090}:80"
+    restart: unless-stopped

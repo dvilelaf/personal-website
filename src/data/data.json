@@ -1,0 +1,197 @@
+{
+    "profile": {
+        "name": "DAVID<br>VILELA",
+        "image": "assets/images/picture.png",
+        "bio": [
+            "With a PhD in Engineering and nearly 15 years of experience ranging from advanced R&D to fast-paced startups, I bridge the gap between academic rigor and practical software engineering. My career has evolved from solving complex physics simulations to building decentralized AI autonomous systems. I thrive in challenging environments where I can leverage my technical expertise in Python, C++, and distributed systems to architect scalable solutions.",
+            "I am a passionate technologist with a strong focus on Multi-Agent Systems, Distributed Ledger Technologies, and Machine Learning. Beyond code, I am driven by a curiosity for how things work—from the human brain to aerospace dynamics. I take pride in writing clean, efficient open-source code and exploring the frontiers of technology.",
+            "I excel in autonomous roles within agile teams, taking full ownership of the project lifecycle. My recent focus has been on the intersection of AI and blockchain, architecting the infrastructure for the AI agent economy. I am also deeply committed to DevOps best practices, ensuring robust CI/CD pipelines and reliable deployments.",
+            "My background includes developing real-time multibody simulators, precise collision detection algorithms, and haptic VR interfaces. I have a proven track record of tackling mathematically intensive problems and translating them into performant software.",
+            "A natural communicator and mentor, I have honed my skills through university teaching and developer relations. I am dedicated to knowledge sharing, whether through guiding the next generation of developers in the Olas Dev Academy or creating educational content on science and technology for my Youtube channel."
+        ]
+    },
+    "contact": [
+        {
+            "title": "Mail",
+            "url": "mailto:dvilela@protonmail.com"
+        },
+        {
+            "title": "LinkedIn",
+            "url": "https://www.linkedin.com/in/dvilela"
+        },
+        {
+            "title": "YouTube",
+            "url": "https://www.youtube.com/c/DavidVilela0"
+        }
+    ],
+    "programming": [
+        {
+            "title": "GitHub",
+            "url": "https://github.com/dvilelaf"
+        },
+        {
+            "title": "Stack Overflow",
+            "url": "https://stackoverflow.com/users/2361454/dvilela"
+        }
+    ],
+    "research": [
+        {
+            "title": "Scopus",
+            "url": "https://www.scopus.com/authid/detail.uri?authorId=56016525400"
+        },
+        {
+            "title": "PhD Thesis",
+            "url": "http://hdl.handle.net/2183/21530"
+        },
+        {
+            "title": "Teseo",
+            "url": "https://www.educacion.gob.es/teseo/mostrarRef.do?ref=1720131"
+        }
+    ],
+    "experience": [
+        {
+            "date": "2021 - 2025",
+            "title": "Senior Python Engineer / AI Agent Engineer",
+            "subtitle": "Valory AG",
+            "description": "<b>Founding member</b> of the Olas protocol. Contributed to the core of the <b>Open Autonomy</b> and <b>Open AEA</b> frameworks. Designed and implemented decentralized AI agents and economies like <b>Contribute</b>, <b>Governatoooorr</b>, and <b>Agents.fun</b>, and contributed to <b>Mechs</b> and <b>Predict</b>. Led the <b>Olas Dev Academy</b>, teaching developers to build decentralized AI agents. Acted as <b>Dev Rel</b>, mentoring at hackathons and supporting the ecosystem."
+        },
+        {
+            "date": "2020 - 2021",
+            "title": "Machine Learning Platform Engineer",
+            "subtitle": "CTAG, Automobile Technological Center of Galicia",
+            "description": "Architected and implemented a high-throughput sensor data platform for autonomous vehicles. Engineered solutions for recording, synchronizing, and decoding massive streams of sensor data to fuel machine learning models. Spearheaded the adoption of DevOps practices, streamlining workflows with Docker and CI/CD pipelines."
+        },
+        {
+            "date": "2019 - 2020",
+            "title": "Research support technician",
+            "subtitle": "Mechanical Engineering Laboratory, University of A Coruña",
+            "description": "Conducted advanced research on volumetric force models based on sphere discretizations. Validated theoretical models through rigorous experimentation and authored two research papers presenting novel findings in computer graphics and physics simulation."
+        },
+        {
+            "date": "2014 - 2018",
+            "title": "Predoctoral Researcher and PhD Teaching Assistant",
+            "subtitle": "Mechanical Engineering Laboratory, University of A Coruña",
+            "description": "Engineered a real-time multibody simulator featuring precise collision detection and volumetric force modeling for conforming contacts. Designed and built a VR haptic feedback glove from the ground up, including electronics and control software. Taught CAD and SolidWorks at the university level. Collaborated with the Computer Graphics Group at the University of Bremen."
+        },
+        {
+            "date": "2012 - 2014",
+            "title": "Research Assistant",
+            "subtitle": "Mechanical Engineering Laboratory, University of A Coruña",
+            "description": "Developed a real-time multibody vehicle simulator for hardware-in-the-loop testing of vehicle dynamics. Created a benchmarking platform for multibody algorithms to facilitate international scientific collaboration and performance ranking."
+        },
+        {
+            "date": "2011",
+            "title": "Internship Student",
+            "subtitle": "Department for Urban Planning, Town Hall, Cedeira",
+            "description": ""
+        }
+    ],
+    "education": [
+        {
+            "date": "2014 - 2018",
+            "title": "PhD in Industrial and Naval Engineering",
+            "subtitle": "University of A Coruña"
+        },
+        {
+            "date": "2012 - 2013",
+            "title": "Industrial and Naval Technologies Research M. Eng",
+            "subtitle": "University of A Coruña"
+        },
+        {
+            "date": "2003 - 2011",
+            "title": "Industrial Engineering B. Eng + M. Eng (Mechanical Eng specialization)",
+            "subtitle": "University of A Coruña"
+        }
+    ],
+    "courses": [
+        {
+            "date": "2021",
+            "title": "DevOps with Docker, Jenkins, Kubernetes, Git, GitFlow and CI/CD",
+            "subtitle": "Coursera"
+        },
+        {
+            "date": "",
+            "title": "Hands-On Test Driven Development with Python",
+            "subtitle": "Coursera"
+        },
+        {
+            "date": "",
+            "title": "Jenkins, From Zero To Expert: Become A Jenkins Master",
+            "subtitle": "Coursera"
+        },
+        {
+            "date": "",
+            "title": "SOLID and Clean Code principles. Write quality code",
+            "subtitle": "Coursera"
+        },
+        {
+            "date": "2014",
+            "title": "C1 Certificate in Advanced English",
+            "subtitle": "Cambridge School"
+        },
+        {
+            "date": "2013",
+            "title": "Introduction to Python",
+            "subtitle": "University of A Coruña"
+        },
+        {
+            "date": "2011",
+            "title": "Introduction to Artificial Intelligence",
+            "subtitle": "Stanford University Online"
+        },
+        {
+            "date": "",
+            "title": "Introduction to Machine Learning",
+            "subtitle": "Stanford University Online"
+        },
+        {
+            "date": "",
+            "title": "Child Education and Support Volunteering",
+            "subtitle": "Nepal Sonríe NGO"
+        },
+        {
+            "date": "2008",
+            "title": "Welding",
+            "subtitle": "Navantia Ferrol"
+        },
+        {
+            "date": "2004",
+            "title": "C Programming",
+            "subtitle": ""
+        },
+        {
+            "date": "2003",
+            "title": "Coastal Skipper",
+            "subtitle": "Nautical and Fishing School, Ferrol"
+        },
+        {
+            "date": "2002",
+            "title": "Basic and Intermediate English, 4 year program",
+            "subtitle": "Official School of Languages, Cedeira"
+        },
+        {
+            "date": "2001",
+            "title": "AutoCad",
+            "subtitle": ""
+        }
+    ],
+    "technologies": [
+        "<b>Core Stack:</b> <b>Python</b>, <b>C++</b>, <b>Multi-Agent Systems (MAS)</b>, <b>Distributed Ledger Technologies (DLT)</b>. Expert in the <b>Open Autonomy</b> and <b>Open AEA</b> frameworks, <b>Tendermint</b>, and <b>IPFS</b> for building decentralized, autonomous services.",
+        "<b>Infrastructure & DevOps:</b> <b>Docker</b>, <b>Kubernetes</b>, and <b>CI/CD</b> pipelines. Experienced in <b>Linux</b> environments and server management.",
+        "<b>Broad Technical Scope:</b> Background in Fortran, Matlab, and Django. Hands-on experience with embedded systems (Raspberry Pi, ESP32), web development (Flask, REST, Websockets), and database management (SQLite)."
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "level": "C1"
+        },
+        {
+            "language": "Spanish",
+            "level": "Native"
+        },
+        {
+            "language": "Galician",
+            "level": "Native"
+        }
+    ]
+}
