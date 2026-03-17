@@ -52,16 +52,70 @@
     ],
     "research": [
         {
+            "year": 2019,
+            "title": "Simulating the anchor lifting maneuver of ships using contact detection techniques and continuous contact force models",
+            "venue": "Multibody System Dynamics, vol. 46, no. 2, pp. 147–179",
+            "authors": "D. Dopico, A. Luaces, M. Saura, J. Cuadrado, D. Vilela",
+            "url": "https://doi.org/10.1007/s11044-019-09670-8"
+        },
+        {
+            "year": 2018,
+            "title": "Simulation of conforming contact in real-time multibody dynamics using a volumetric force model",
+            "venue": "PhD Thesis — Universidade da Coruña",
+            "authors": "D. Vilela Freire",
+            "url": "https://hdl.handle.net/2183/21530"
+        },
+        {
+            "year": 2017,
+            "title": "Benchmarking of linearization methods for multibody system dynamics",
+            "venue": "ASME IDETC/CIE 2017, Cleveland, USA",
+            "authors": "F. González, B. Minaker, P. Masarati, A. Luaces, D. Vilela, J. Cuadrado",
+            "url": "https://lim.ii.udc.es/docs/proceedings/2017_06_ECCOMAS_Benchmark.pdf"
+        },
+        {
+            "year": 2017,
+            "title": "Benchmark problems for the linearization of multibody dynamics",
+            "venue": "8th ECCOMAS Thematic Conf. on Multibody Dynamics, Prague",
+            "authors": "F. González, B. Minaker, P. Masarati, A. Luaces, D. Vilela, J. Cuadrado",
+            "url": "https://lim.ii.udc.es/docs/proceedings/2017_06_ECCOMAS_Benchmark.pdf"
+        },
+        {
+            "year": 2014,
+            "title": "Evaluation of motor in-wheel behavior in loss-of-contact scenarios and analysis of potential measures for performance improvement",
+            "venue": "3rd Joint Int. Conf. on Multibody System Dynamics (IMSD), Busan, Korea",
+            "authors": "J. Cuadrado, D. Vilela, A. Luaces, F. Mouzo, A. Martin, I. Iglesias, A. Peña",
+            "url": "https://www.researchgate.net/scientific-contributions/David-Vilela-2078671277"
+        },
+        {
+            "year": 2014,
+            "title": "An update on the web-based library of computational benchmark problems for multibody dynamics",
+            "venue": "3rd Joint Int. Conf. on Multibody System Dynamics (IMSD), Busan, Korea",
+            "authors": "R. Masoudi, T. Uchida, D. Vilela, A. Luaces, J. Cuadrado, J. McPhee",
+            "url": "https://www.researchgate.net/scientific-contributions/David-Vilela-2078671277"
+        },
+        {
+            "year": 2013,
+            "title": "A multibody model to assess the effect of automotive motor in-wheel configuration on vehicle stability and comfort",
+            "venue": "ECCOMAS Thematic Conf. on Multibody Dynamics, Zagreb, Croatia",
+            "authors": "J. Cuadrado, D. Vilela, I. Iglesias, A. Martin, A. Peña",
+            "url": "https://www.researchgate.net/publication/280479714"
+        },
+        {
+            "year": 2013,
+            "title": "A library of computational benchmark problems for the multibody dynamics community",
+            "venue": "ECCOMAS Thematic Conf. on Multibody Dynamics, Zagreb, Croatia",
+            "authors": "R. Masoudi, T. Uchida, D. Vilela, A. Luaces, J. Cuadrado, J. McPhee",
+            "url": "https://www.researchgate.net/scientific-contributions/David-Vilela-2078671277"
+        }
+    ],
+    "research_profiles": [
+        {
             "title": "Scopus",
             "url": "https://www.scopus.com/authid/detail.uri?authorId=56016525400"
         },
         {
             "title": "ResearchGate",
             "url": "https://www.researchgate.net/scientific-contributions/David-Vilela-2078671277"
-        },
-        {
-            "title": "PhD Thesis",
-            "url": "https://hdl.handle.net/2183/21530"
         },
         {
             "title": "Teseo",

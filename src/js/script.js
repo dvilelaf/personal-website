@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
             renderTimeline('experience-container', data.experience);
             renderSpeaking(data.speaking);
             renderPublications(data.publications);
+            renderResearch(data.research);
             renderTechnologies(data.technologies);
             renderTimeline('education-container', data.education);
             renderTimeline('courses-container', data.courses);
@@ -296,6 +297,38 @@ function renderPublications(posts) {
 }
 
 /* ============================================
+   Academic Research
+   ============================================ */
+
+function renderResearch(items) {
+    if (!items || items.length === 0) return;
+
+    var container = document.getElementById('research-container');
+    items.forEach(function(item) {
+        var card = document.createElement('a');
+        card.className = 'post-card';
+        card.href = item.url;
+        card.target = '_blank';
+        card.rel = 'noopener noreferrer';
+
+        var meta = document.createElement('div');
+        meta.className = 'post-date';
+        meta.textContent = item.year + ' · ' + item.venue;
+
+        var title = document.createElement('h3');
+        title.textContent = item.title;
+
+        var authors = document.createElement('p');
+        authors.textContent = item.authors;
+
+        card.appendChild(meta);
+        card.appendChild(title);
+        card.appendChild(authors);
+        container.appendChild(card);
+    });
+}
+
+/* ============================================
    Technologies
    ============================================ */
 
@@ -396,7 +429,7 @@ function renderFooter(data) {
 
     // Research links
     var researchContainer = document.getElementById('footer-research-links');
-    data.research.forEach(function(link) {
+    data.research_profiles.forEach(function(link) {
         var a = document.createElement('a');
         a.href = link.url;
         a.target = '_blank';
@@ -426,7 +459,7 @@ function initScrollAnimations() {
     var sections = document.querySelectorAll('.section, .footer');
     sections.forEach(function(section) {
         var elements = section.querySelectorAll(
-            '.about-content, .project-card, .video-card, .timeline-item, .speaking-card, .post-card, .tech-card, .language-item, .section-title'
+            '.about-content, .project-card, .video-card, .timeline-item, .speaking-card, .post-card, .tech-card, .language-item, .section-title, .subsection-title'
         );
         elements.forEach(function(el, i) {
             el.classList.add('reveal');
