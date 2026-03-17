@@ -39,6 +39,11 @@
             "icon": "github"
         },
         {
+            "title": "X / Twitter",
+            "url": "https://x.com/dvilelaf",
+            "icon": "x"
+        },
+        {
             "title": "Stack Overflow",
             "url": "https://stackoverflow.com/users/2361454/dvilela",
             "icon": "stackoverflow"
@@ -63,7 +68,8 @@
             "name": "Open Autonomy",
             "tagline": "Framework for building decentralized autonomous AI agent services",
             "tech": ["Python", "Tendermint", "IPFS"],
-            "url": "https://github.com/valory-xyz/open-autonomy"
+            "url": "https://github.com/valory-xyz/open-autonomy",
+            "stars": 115
         },
         {
             "name": "Agents.fun",
@@ -78,34 +84,72 @@
             "url": "https://github.com/valory-xyz/governatooorr"
         },
         {
-            "name": "Contribute",
-            "tagline": "Decentralized contribution tracking for the Olas ecosystem",
-            "tech": ["Python", "Open Autonomy", "IPFS"],
-            "url": "https://contribute.olas.network"
-        },
-        {
             "name": "Predict",
             "tagline": "AI-powered prediction market agent using LLMs",
             "tech": ["Python", "Open Autonomy", "ML"],
-            "url": "https://github.com/valory-xyz/trader"
+            "url": "https://github.com/valory-xyz/trader",
+            "stars": 64
+        },
+        {
+            "name": "iwa",
+            "tagline": "Secure, modular Python framework for multi-chain crypto agents and ops",
+            "tech": ["Python", "FastAPI", "Web3"],
+            "url": "https://github.com/dvilelaf/iwa"
+        },
+        {
+            "name": "Vera",
+            "tagline": "Autonomous fact-checking agent that verifies controversial content using AI",
+            "tech": ["Python", "Open Autonomy", "NLP"],
+            "url": "https://github.com/dvilelaf/vera"
         },
         {
             "name": "alfred",
-            "tagline": "Linux AI assistant for the command line",
-            "tech": ["Python", "LLM", "Linux"],
-            "url": "https://github.com/dvilelaf/alfred"
+            "tagline": "Script to install your favourite apps and configure GNU/Linux automatically",
+            "tech": ["Shell", "Python", "Linux"],
+            "url": "https://github.com/dvilelaf/alfred",
+            "stars": 52
+        },
+        {
+            "name": "NordIndicator",
+            "tagline": "GNU/Linux system tray indicator to control your NordVPN connection",
+            "tech": ["Python", "GTK", "Linux"],
+            "url": "https://github.com/dvilelaf/NordIndicator",
+            "stars": 28
+        },
+        {
+            "name": "Open AEA",
+            "tagline": "Framework for open autonomous economic agent development",
+            "tech": ["Python", "Multi-Agent Systems"],
+            "url": "https://github.com/valory-xyz/open-aea",
+            "stars": 74
         }
     ],
     "youtube": {
         "channel_url": "https://www.youtube.com/c/DavidVilela0",
         "featured_videos": [
             {
-                "id": "buQeA1seFw4",
-                "title": "La simplicidad del caos: células, virus, elecciones y simulaciones"
+                "id": "vr55Z8vgcI4",
+                "title": "CedeCiencia 2024: Poner el cascabel a la IA"
             },
             {
-                "id": "6UnU34WjPwk",
-                "title": "Simulación de una pandemia con y sin confinamiento"
+                "id": "_tJjAksAVFw",
+                "title": "Cuando los vehículos autónomos nos maten"
+            },
+            {
+                "id": "Vy86Ge-YZeg",
+                "title": "El problema de las tres puertas"
+            },
+            {
+                "id": "DBbrJxQoug4",
+                "title": "Perseverance y Marte: ¿estamos malgastando el dinero en exploración espacial?"
+            },
+            {
+                "id": "ghxAQq_rbJE",
+                "title": "En busca del valle inquietante"
+            },
+            {
+                "id": "5rRuqzKDy30",
+                "title": "Los bots que no amaban a Alva Majo | Web scraping y bots de Telegram"
             },
             {
                 "id": "DwNE-F_5SuM",
@@ -116,15 +160,49 @@
                 "title": "¿Existe realmente la aleatoriedad? Sesgos, listas de música y loterías"
             },
             {
-                "id": "91LmdddpMAY",
-                "title": "Zerpy: coding for the XRP Ledger is now easier than ever"
-            },
-            {
-                "id": "5rRuqzKDy30",
-                "title": "Los bots que no amaban a Alva Majo | Web scraping y bots de Telegram"
+                "id": "Vw9kujXEtX4",
+                "title": "2021: la carrera global por la computación a exaescala"
             }
         ]
     },
+    "linkedin_posts": [
+        {
+            "date": "Jan 2026",
+            "title": "Releasing iwa: a Python framework for multi-chain crypto apps",
+            "summary": "First alpha of iwa — 34,000 lines of code, built as a 2-month experiment testing AI coding agents (Claude, Gemini, Antigravity).",
+            "url": "https://www.linkedin.com/posts/dvilela_today-im-finally-releasing-the-first-alpha-activity-7415079272601731072-BtOF"
+        },
+        {
+            "date": "Jul 2025",
+            "title": "CedeCiencia: bringing science talks to Cedeira",
+            "summary": "Continuing the organization of CedeCiencia, an initiative bringing science and culture lectures to the community.",
+            "url": "https://www.linkedin.com/posts/dvilela_en-marcha-cedeciencia-charlas-sobre-ciencia-activity-7350811300710490112-65wY"
+        },
+        {
+            "date": "Oct 2024",
+            "title": "Vera: an AI agent fighting election misinformation",
+            "summary": "Introducing Vera, an autonomous agent on the Olas network that tracks fake news, monitors social media, and generates fact-checked responses.",
+            "url": "https://www.linkedin.com/posts/dvilela_aiforgood-factchecking-elections2024-activity-7253325967463436288-w5PR"
+        },
+        {
+            "date": "Apr 2024",
+            "title": "Versos, cantigas e bits — AI-generated Galician music",
+            "summary": "An experimental music collection blending classic Galician poetry with AI-generated electronic production, available on Spotify and Apple Music.",
+            "url": "https://www.linkedin.com/posts/dvilela_versos-cantigas-e-bits-activity-7187430627502153729-Bu6L"
+        },
+        {
+            "date": "Apr 2024",
+            "title": "Speaking at Pint of Science: 'Ponerle el cascabel a la IA'",
+            "summary": "Talk in Ferrol about the risks of centralized AI and why decentralization matters.",
+            "url": "https://www.linkedin.com/posts/dvilela_ferrol-techmeout-pint24es-activity-7182786409294946304-7jSt"
+        },
+        {
+            "date": "Mar 2024",
+            "title": "Tsunami: an autonomous Olas ecosystem tracker",
+            "summary": "An agent that monitors the Olas blockchain and reports on Twitter/Farcaster using a local Llama model with random AI personalities.",
+            "url": "https://www.linkedin.com/posts/dvilela_let-me-introduce-you-to-tsunami-https-activity-7177767722112475136-pbGU"
+        }
+    ],
     "speaking": [
         {
             "title": "Olas Dev Academy",
@@ -132,19 +210,31 @@
             "type": "teaching"
         },
         {
+            "title": "CedeCiencia",
+            "description": "Co-organizer of annual science and culture lecture series in Cedeira, Galicia. Speaker on AI risks and decentralization.",
+            "type": "organizing",
+            "url": "https://www.youtube.com/@CedeCiencia"
+        },
+        {
+            "title": "Pint of Science",
+            "description": "Speaker at Pint of Science 2024 in Ferrol: 'Ponerle el cascabel a la IA' — on the risks of centralized AI.",
+            "type": "speaking"
+        },
+        {
             "title": "Hackathon Mentoring",
-            "description": "Mentor and judge at ETH and Web3 hackathons, supporting the Olas developer ecosystem",
+            "description": "Mentor and judge at ETH and Web3 hackathons, supporting the Olas developer ecosystem.",
             "type": "mentoring"
         },
         {
             "title": "University Lecturer",
-            "description": "Taught CAD and SolidWorks courses at the University of A Coruña during PhD",
+            "description": "Taught CAD and SolidWorks courses at the University of A Coruña during PhD.",
             "type": "teaching"
         },
         {
             "title": "YouTube Science Channel",
-            "description": "Educational content on science, technology and programming with 14 videos covering simulations, AI, and hardware projects",
-            "type": "content"
+            "description": "Educational content on science, technology and programming — simulations, AI, and hardware projects.",
+            "type": "content",
+            "url": "https://www.youtube.com/c/DavidVilela0"
         }
     ],
     "experience": [

@@ -448,12 +448,24 @@ img {
     box-shadow: 0 8px 24px var(--color-shadow-hover);
 }
 
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 8px;
+}
+
 .project-card h3 {
     font-family: var(--font-heading);
     font-size: 1.2rem;
     font-weight: 400;
-    margin-bottom: 8px;
     color: var(--color-text);
+}
+
+.project-stars {
+    font-size: 0.8rem;
+    color: var(--color-text-secondary);
+    white-space: nowrap;
 }
 
 .project-card p {
@@ -477,6 +489,48 @@ img {
     color: var(--color-tag-text);
     font-size: 0.78rem;
     font-weight: 600;
+}
+
+/* ============================================
+   GitHub Contribution Chart
+   ============================================ */
+
+.github-chart {
+    margin-top: 40px;
+    overflow-x: auto;
+}
+
+.github-chart img {
+    width: 100%;
+    max-width: 900px;
+    display: block;
+    margin: 0 auto;
+    border-radius: var(--card-radius);
+}
+
+.github-chart-label {
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--color-text-secondary);
+    margin-top: 10px;
+    font-style: italic;
+}
+
+[data-theme="dark"] .github-chart img,
+.github-chart img {
+    filter: none;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) .github-chart img {
+        filter: invert(1) hue-rotate(180deg);
+        opacity: 0.85;
+    }
+}
+
+[data-theme="dark"] .github-chart img {
+    filter: invert(1) hue-rotate(180deg);
+    opacity: 0.85;
 }
 
 /* ============================================
@@ -595,6 +649,12 @@ img {
     gap: 20px;
 }
 
+a.speaking-card {
+    cursor: pointer;
+    color: inherit;
+    display: block;
+}
+
 .speaking-card {
     background: var(--color-bg-card);
     border-radius: var(--card-radius);
@@ -629,6 +689,59 @@ img {
 .speaking-card p {
     font-size: 0.85rem;
     color: var(--color-text-secondary);
+}
+
+/* ============================================
+   LinkedIn Posts
+   ============================================ */
+
+.posts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.post-card {
+    background: var(--color-bg-card);
+    border-radius: var(--card-radius);
+    padding: 24px;
+    border-left: 4px solid var(--color-primary);
+    border-top: 1px solid var(--color-border);
+    border-right: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+    box-shadow: 0 2px 8px var(--color-shadow);
+    transition: transform var(--transition), box-shadow var(--transition);
+    display: block;
+    color: inherit;
+    cursor: pointer;
+}
+
+.post-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px var(--color-shadow-hover);
+    opacity: 1;
+}
+
+.post-date {
+    font-size: 0.78rem;
+    color: var(--color-text-secondary);
+    font-style: italic;
+    margin-bottom: 8px;
+}
+
+.post-card h3 {
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--color-text);
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+.post-card p {
+    font-size: 0.85rem;
+    color: var(--color-text-secondary);
+    line-height: 1.6;
 }
 
 /* ============================================
