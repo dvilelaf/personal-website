@@ -159,7 +159,7 @@ img {
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 60px 24px 40px;
+    padding: 80px 24px 40px;
     position: relative;
 }
 
@@ -1041,7 +1041,7 @@ a.speaking-card {
 
     .hero {
         min-height: 90vh;
-        padding: 40px 20px 60px;
+        padding: 80px 20px 60px;
     }
 
     #profile-image {
