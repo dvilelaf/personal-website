@@ -22,7 +22,10 @@ document.addEventListener('DOMContentLoaded', () => {
             initThemeToggle();
             initActiveNavTracking();
         })
-        .catch(error => console.error('Error loading data:', error));
+        .catch(function(error) {
+            console.error('Error loading data:', error);
+            document.querySelector('main').innerHTML = '<p style="text-align:center;padding:40px;color:var(--color-text-secondary)">Unable to load content. Please refresh the page.</p>';
+        });
 });
 
 /* ============================================
