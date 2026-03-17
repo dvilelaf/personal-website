@@ -479,12 +479,7 @@ function initStickyNav() {
 
     var observer = new IntersectionObserver(function(entries) {
         var isHeroVisible = entries[0].isIntersecting;
-        nav.classList.toggle('visible', !isHeroVisible);
-        // Prevent keyboard focus on hidden nav
-        var links = nav.querySelectorAll('a, button');
-        links.forEach(function(el) {
-            el.tabIndex = isHeroVisible ? -1 : 0;
-        });
+        nav.classList.toggle('scrolled', !isHeroVisible);
     }, { threshold: 0, rootMargin: '-56px 0px 0px 0px' });
 
     observer.observe(hero);
