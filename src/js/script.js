@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
             renderVideos(data.youtube);
             renderTimeline('experience-container', data.experience);
             renderSpeaking(data.speaking);
-            renderLinkedInPosts(data.linkedin_posts);
+            renderPublications(data.publications);
             renderTechnologies(data.technologies);
             renderTimeline('education-container', data.education);
             renderTimeline('courses-container', data.courses);
@@ -262,7 +262,7 @@ function renderSpeaking(items) {
    LinkedIn Posts
    ============================================ */
 
-function renderLinkedInPosts(posts) {
+function renderPublications(posts) {
     if (!posts || posts.length === 0) return;
 
     var container = document.getElementById('linkedin-container');
@@ -273,9 +273,11 @@ function renderLinkedInPosts(posts) {
         card.target = '_blank';
         card.rel = 'noopener noreferrer';
 
-        var date = document.createElement('div');
-        date.className = 'post-date';
-        date.textContent = post.date;
+        var meta = document.createElement('div');
+        meta.className = 'post-date';
+        var parts = [post.date];
+        if (post.source) parts.push(post.source);
+        meta.textContent = parts.join(' · ');
 
         var title = document.createElement('h3');
         title.textContent = post.title;
@@ -283,7 +285,7 @@ function renderLinkedInPosts(posts) {
         var summary = document.createElement('p');
         summary.textContent = post.summary;
 
-        card.appendChild(date);
+        card.appendChild(meta);
         card.appendChild(title);
         card.appendChild(summary);
         container.appendChild(card);
@@ -425,7 +427,7 @@ function initScrollAnimations() {
         );
         elements.forEach(function(el, i) {
             el.classList.add('reveal');
-            el.style.transitionDelay = (i * 0.08) + 's';
+            el.style.transitionDelay = Math.min(i * 0.08, 0.4) + 's';
             observer.observe(el);
         });
     });

@@ -7,13 +7,14 @@
         "metrics": [
             { "value": "15+", "label": "Years Experience" },
             { "value": "PhD", "label": "Engineering" },
-            { "value": "48+", "label": "Open Source Repos" }
+            { "value": "10K+", "label": "Open Source Commits" },
+            { "value": "48+", "label": "Public Repos" }
         ],
         "bio": [
-            "With a PhD in Engineering and nearly 15 years of experience ranging from advanced R&D to fast-paced startups, I bridge the gap between academic rigor and practical software engineering. My career has evolved from solving complex physics simulations to building decentralized AI autonomous systems.",
-            "I am a passionate technologist with a strong focus on Multi-Agent Systems, Distributed Ledger Technologies, and Machine Learning. Beyond code, I am driven by a curiosity for how things work — from the human brain to aerospace dynamics.",
-            "My recent focus has been on the intersection of AI and blockchain, architecting the infrastructure for the AI agent economy. I excel in autonomous roles within agile teams, taking full ownership of the project lifecycle.",
-            "A natural communicator and mentor, I have honed my skills through university teaching and developer relations. I am dedicated to knowledge sharing through the Olas Dev Academy and my YouTube channel on science and technology."
+            "I am a passionate technologist with a strong focus on Multi-Agent Systems, Distributed Ledger Technologies, and Machine Learning. With nearly 15 years of experience ranging from advanced R&D to fast-paced startups, I bridge the gap between academic rigor and practical software engineering.",
+            "My career has evolved from solving complex physics simulations to building decentralized AI autonomous systems. I co-authored the Open Autonomy and Open AEA frameworks, and designed autonomous agents used across the Olas ecosystem.",
+            "My research background includes a PhD in Engineering, 5 published papers (44 citations) in journals like Multibody System Dynamics, a research stay at the University of Bremen, and an international benchmarking platform for the multibody dynamics community.",
+            "A natural communicator and mentor, I co-organize CedeCiencia — a volunteer-led science lecture series in Galicia — and share knowledge through developer relations, university teaching, and my YouTube channel on science and technology."
         ],
         "footer_text": "Open to interesting conversations about AI, distributed systems, and open source."
     },
@@ -55,6 +56,10 @@
             "url": "https://www.scopus.com/authid/detail.uri?authorId=56016525400"
         },
         {
+            "title": "ResearchGate",
+            "url": "https://www.researchgate.net/scientific-contributions/David-Vilela-2078671277"
+        },
+        {
             "title": "PhD Thesis",
             "url": "http://hdl.handle.net/2183/21530"
         },
@@ -66,10 +71,17 @@
     "projects": [
         {
             "name": "Open Autonomy",
-            "tagline": "Framework for building decentralized autonomous AI agent services",
+            "tagline": "Framework for building decentralized autonomous AI agent services — co-author",
             "tech": ["Python", "Tendermint", "IPFS"],
             "url": "https://github.com/valory-xyz/open-autonomy",
             "stars": 115
+        },
+        {
+            "name": "Open AEA",
+            "tagline": "Framework for open autonomous economic agent development — co-author",
+            "tech": ["Python", "Multi-Agent Systems"],
+            "url": "https://github.com/valory-xyz/open-aea",
+            "stars": 74
         },
         {
             "name": "Agents.fun",
@@ -115,13 +127,6 @@
             "tech": ["Python", "GTK", "Linux"],
             "url": "https://github.com/dvilelaf/NordIndicator",
             "stars": 28
-        },
-        {
-            "name": "Open AEA",
-            "tagline": "Framework for open autonomous economic agent development",
-            "tech": ["Python", "Multi-Agent Systems"],
-            "url": "https://github.com/valory-xyz/open-aea",
-            "stars": 74
         }
     ],
     "youtube": {
@@ -134,14 +139,6 @@
             {
                 "id": "_tJjAksAVFw",
                 "title": "Cuando los vehículos autónomos nos maten"
-            },
-            {
-                "id": "Vy86Ge-YZeg",
-                "title": "El problema de las tres puertas"
-            },
-            {
-                "id": "DBbrJxQoug4",
-                "title": "Perseverance y Marte: ¿estamos malgastando el dinero en exploración espacial?"
             },
             {
                 "id": "ghxAQq_rbJE",
@@ -158,14 +155,10 @@
             {
                 "id": "pilGKjE2MmE",
                 "title": "¿Existe realmente la aleatoriedad? Sesgos, listas de música y loterías"
-            },
-            {
-                "id": "Vw9kujXEtX4",
-                "title": "2021: la carrera global por la computación a exaescala"
             }
         ]
     },
-    "linkedin_posts": [
+    "publications": [
         {
             "date": "Jan 2026",
             "title": "Releasing iwa: a Python framework for multi-chain crypto apps",
@@ -201,6 +194,13 @@
             "title": "Tsunami: an autonomous Olas ecosystem tracker",
             "summary": "An agent that monitors the Olas blockchain and reports on Twitter/Farcaster using a local Llama model with random AI personalities.",
             "url": "https://www.linkedin.com/posts/dvilela_let-me-introduce-you-to-tsunami-https-activity-7177767722112475136-pbGU"
+        },
+        {
+            "date": "Sep 2022",
+            "title": "The case for Blockchain and Autonomy",
+            "summary": "How blockchain and autonomous agents create decentralized services without central authorities — published on the Olas Network blog.",
+            "url": "https://olas.network/blog/the-case-for-blockchain-and-autonomy",
+            "source": "Olas Network Blog"
         }
     ],
     "speaking": [
@@ -211,7 +211,7 @@
         },
         {
             "title": "CedeCiencia",
-            "description": "Co-organizer of annual science and culture lecture series in Cedeira, Galicia. Speaker on AI risks and decentralization.",
+            "description": "Co-organizer of a volunteer-led annual science and culture lecture series in the bars of Cedeira, Galicia. Speaker on AI risks and decentralization.",
             "type": "organizing",
             "url": "https://www.youtube.com/@CedeCiencia"
         },
