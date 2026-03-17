@@ -3,101 +3,175 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="David Vilela Resumé">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="David Vilela — Senior AI Agent Engineer & PhD. Founding member of Olas Protocol. Expert in Multi-Agent Systems, Python, and Decentralized AI.">
     <meta name="author" content="David Vilela">
 
-    <title>David Vilela Resumé</title>
-    <link rel="shortcut icon" type="image/png" href="assets/images/picture.png" />
+    <title>David Vilela | AI Agent Engineer & PhD</title>
+    <link rel="canonical" href="https://dvilela.com/">
+    <link rel="shortcut icon" type="image/png" href="assets/images/picture.png">
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-41675072-3"></script>
+    <!-- Open Graph -->
+    <meta property="og:title" content="David Vilela | AI Agent Engineer & Olas Protocol Founding Member">
+    <meta property="og:description"
+        content="PhD Engineer building decentralized autonomous AI agents. Creator of Agents.fun, Contribute, Governatoooorr.">
+    <meta property="og:image" content="https://dvilela.com/assets/images/picture.png">
+    <meta property="og:url" content="https://dvilela.com">
+    <meta property="og:type" content="profile">
+    <meta name="twitter:card" content="summary">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Open+Sans:wght@300;400;600&display=swap"
+        rel="stylesheet">
+
+    <!-- lite-youtube-embed -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.3/src/lite-yt-embed.min.css">
+    <link rel="preconnect" href="https://i.ytimg.com">
+
+    <!-- Custom styles -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Prevent FOUC: apply saved theme before render -->
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-41675072-3');
+        (function() {
+            var t = localStorage.getItem('theme');
+            if (t) document.documentElement.setAttribute('data-theme', t);
+        })();
     </script>
 
-    <!-- Bootstrap core CSS and JS-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-
-    <!-- Custom styles for this template -->
-    <link href="css/style.css" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Oswald:300" rel="stylesheet">
-
-
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald" />
-
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "David Vilela",
+        "jobTitle": "Senior AI Agent Engineer",
+        "description": "PhD Engineer building decentralized autonomous AI agents. Founding member of Olas Protocol.",
+        "sameAs": [
+            "https://github.com/dvilelaf",
+            "https://www.linkedin.com/in/dvilela",
+            "https://www.youtube.com/c/DavidVilela0",
+            "https://stackoverflow.com/users/2361454/dvilela"
+        ],
+        "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "University of A Coruña"
+        },
+        "knowsAbout": ["Multi-Agent Systems", "Python", "Blockchain", "Artificial Intelligence", "Decentralized Systems"]
+    }
+    </script>
 </head>
 
 <body>
 
-    <div class="container-fluid" id="mainContainer">
+    <!-- Skip to content (accessibility) -->
+    <a href="#about" class="skip-link">Skip to content</a>
 
-        <div class="row" id="mainRow">
-
-            <aside class="col-lg-4 col-md-5 col-sm-12" id="left-pane">
-
-                <img src="" id="profile-image" alt="Picture">
-
-                <h1 class="profile-name" id="profile-name"></h1>
-
-                <hr id="line">
-
-                <div id="profile-bio"></div>
-
-                <hr id="line">
-
-                <h3 class="section-header-white">CONTACT & NETWORKS</h3>
-                <br>
-                <div id="contact-container"></div>
-                <br><br>
-
-                <h3 class="section-header-white">PROGRAMMING</h3>
-                <br>
-                <div id="programming-container"></div>
-                <br><br>
-
-                <h3 class="section-header-white">RESEARCH</h3>
-                <br>
-                <div id="research-container"></div>
-                <br><br>
-
-
-
-            </aside>
-
-            <main class="col-lg-8 col-md-7 col-sm-12" id="right-pane">
-
-                <h3 class="section">EXPERIENCE</h3>
-                <div id="experience-container"></div>
-
-                <h3 class="section">EDUCATION</h3>
-                <div id="education-container"></div>
-
-                <h3 class="section">COURSES, CERTIFICATES AND ACTIVITIES</h3>
-                <div id="courses-container"></div>
-
-                <h3 class="section">TECHNOLOGIES</h3>
-                <div id="technologies-container"></div>
-
-                <h3 class="section">LANGUAGES</h3>
-                <div id="languages-container"></div>
-
-            </main>
-
+    <!-- Hero -->
+    <header class="hero" id="hero">
+        <div class="hero-content">
+            <img src="assets/images/picture.png" id="profile-image" alt="David Vilela, portrait photo" width="160" height="160" fetchpriority="high">
+            <h1 id="profile-name">David Vilela</h1>
+            <p class="hero-headline" id="hero-headline">PhD Engineer · AI, Blockchain & Distributed Systems</p>
+            <p class="hero-tagline" id="hero-tagline">From physics simulations to decentralized autonomous agents — bridging research and real-world software</p>
+            <div class="hero-metrics" id="hero-metrics"></div>
+            <div class="hero-cta">
+                <a href="mailto:dvilela@protonmail.com" class="btn btn-primary">Get in touch</a>
+                <a href="https://github.com/dvilelaf" class="btn btn-secondary" target="_blank"
+                    rel="noopener noreferrer">View GitHub</a>
+            </div>
         </div>
+        <div class="scroll-indicator" aria-hidden="true">
+            <span>&#8595;</span>
+        </div>
+    </header>
 
-    </div>
+    <!-- Nav -->
+    <nav class="nav" id="main-nav" aria-label="Main navigation">
+        <div class="nav-links">
+            <a href="#projects">Projects</a>
+            <a href="#videos">Videos</a>
+            <a href="#experience">Experience</a>
+            <a href="#speaking">Teaching</a>
+            <a href="#technologies">Tech</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
 
+    <!-- Theme toggle (always visible) -->
+    <button id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode"></button>
+
+    <!-- Main content -->
+    <main>
+
+        <section id="about" class="section">
+            <h2 class="section-title">About</h2>
+            <div class="about-content" id="about-container"></div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid" id="projects-container"></div>
+        </section>
+
+        <section id="videos" class="section">
+            <h2 class="section-title">Videos & Talks</h2>
+            <div class="videos-grid" id="videos-container"></div>
+            <div class="section-cta" id="youtube-cta"></div>
+        </section>
+
+        <section id="experience" class="section">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline" id="experience-container"></div>
+        </section>
+
+        <section id="speaking" class="section">
+            <h2 class="section-title">Speaking & Teaching</h2>
+            <div class="speaking-grid" id="speaking-container"></div>
+        </section>
+
+        <section id="technologies" class="section">
+            <h2 class="section-title">Technologies</h2>
+            <div class="tech-grid" id="technologies-container"></div>
+        </section>
+
+        <section id="education" class="section">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline" id="education-container"></div>
+        </section>
+
+        <section id="courses" class="section">
+            <h2 class="section-title">Courses & Certificates</h2>
+            <div class="timeline" id="courses-container"></div>
+        </section>
+
+        <section id="languages" class="section">
+            <h2 class="section-title">Languages</h2>
+            <div class="languages-grid" id="languages-container"></div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="footer-content">
+            <h2 class="footer-title">Let's connect</h2>
+            <p class="footer-available" id="available-for"></p>
+            <div class="footer-links" id="footer-links"></div>
+            <div class="footer-research">
+                <h3>Research</h3>
+                <div id="footer-research-links"></div>
+            </div>
+        </div>
+    </footer>
+
+    <noscript><p style="text-align:center;padding:40px;">Please enable JavaScript to view this site.</p></noscript>
+    <script src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.3/src/lite-yt-embed.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 

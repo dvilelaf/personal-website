@@ -1,37 +1,47 @@
 {
     "profile": {
-        "name": "DAVID<br>VILELA",
+        "name": "David Vilela",
+        "headline": "PhD Engineer · AI, Blockchain & Distributed Systems",
+        "tagline": "From physics simulations to decentralized autonomous agents — bridging research and real-world software",
         "image": "assets/images/picture.png",
+        "metrics": [
+            { "value": "15+", "label": "Years Experience" },
+            { "value": "PhD", "label": "Engineering" },
+            { "value": "48+", "label": "Open Source Repos" }
+        ],
         "bio": [
-            "With a PhD in Engineering and nearly 15 years of experience ranging from advanced R&D to fast-paced startups, I bridge the gap between academic rigor and practical software engineering. My career has evolved from solving complex physics simulations to building decentralized AI autonomous systems. I thrive in challenging environments where I can leverage my technical expertise in Python, C++, and distributed systems to architect scalable solutions.",
-            "I am a passionate technologist with a strong focus on Multi-Agent Systems, Distributed Ledger Technologies, and Machine Learning. Beyond code, I am driven by a curiosity for how things work—from the human brain to aerospace dynamics. I take pride in writing clean, efficient open-source code and exploring the frontiers of technology.",
-            "I excel in autonomous roles within agile teams, taking full ownership of the project lifecycle. My recent focus has been on the intersection of AI and blockchain, architecting the infrastructure for the AI agent economy. I am also deeply committed to DevOps best practices, ensuring robust CI/CD pipelines and reliable deployments.",
-            "My background includes developing real-time multibody simulators, precise collision detection algorithms, and haptic VR interfaces. I have a proven track record of tackling mathematically intensive problems and translating them into performant software.",
-            "A natural communicator and mentor, I have honed my skills through university teaching and developer relations. I am dedicated to knowledge sharing, whether through guiding the next generation of developers in the Olas Dev Academy or creating educational content on science and technology for my Youtube channel."
-        ]
+            "With a PhD in Engineering and nearly 15 years of experience ranging from advanced R&D to fast-paced startups, I bridge the gap between academic rigor and practical software engineering. My career has evolved from solving complex physics simulations to building decentralized AI autonomous systems.",
+            "I am a passionate technologist with a strong focus on Multi-Agent Systems, Distributed Ledger Technologies, and Machine Learning. Beyond code, I am driven by a curiosity for how things work — from the human brain to aerospace dynamics.",
+            "My recent focus has been on the intersection of AI and blockchain, architecting the infrastructure for the AI agent economy. I excel in autonomous roles within agile teams, taking full ownership of the project lifecycle.",
+            "A natural communicator and mentor, I have honed my skills through university teaching and developer relations. I am dedicated to knowledge sharing through the Olas Dev Academy and my YouTube channel on science and technology."
+        ],
+        "footer_text": "Open to interesting conversations about AI, distributed systems, and open source."
     },
     "contact": [
         {
-            "title": "Mail",
-            "url": "mailto:dvilela@protonmail.com"
+            "title": "Email",
+            "url": "mailto:dvilela@protonmail.com",
+            "icon": "email"
         },
         {
             "title": "LinkedIn",
-            "url": "https://www.linkedin.com/in/dvilela"
+            "url": "https://www.linkedin.com/in/dvilela",
+            "icon": "linkedin"
         },
         {
             "title": "YouTube",
-            "url": "https://www.youtube.com/c/DavidVilela0"
-        }
-    ],
-    "programming": [
+            "url": "https://www.youtube.com/c/DavidVilela0",
+            "icon": "youtube"
+        },
         {
             "title": "GitHub",
-            "url": "https://github.com/dvilelaf"
+            "url": "https://github.com/dvilelaf",
+            "icon": "github"
         },
         {
             "title": "Stack Overflow",
-            "url": "https://stackoverflow.com/users/2361454/dvilela"
+            "url": "https://stackoverflow.com/users/2361454/dvilela",
+            "icon": "stackoverflow"
         }
     ],
     "research": [
@@ -46,6 +56,95 @@
         {
             "title": "Teseo",
             "url": "https://www.educacion.gob.es/teseo/mostrarRef.do?ref=1720131"
+        }
+    ],
+    "projects": [
+        {
+            "name": "Open Autonomy",
+            "tagline": "Framework for building decentralized autonomous AI agent services",
+            "tech": ["Python", "Tendermint", "IPFS"],
+            "url": "https://github.com/valory-xyz/open-autonomy"
+        },
+        {
+            "name": "Agents.fun",
+            "tagline": "Autonomous AI agents that deploy and manage memecoins on-chain",
+            "tech": ["Python", "Open Autonomy", "Solidity"],
+            "url": "https://agents.fun"
+        },
+        {
+            "name": "Governatoooorr",
+            "tagline": "Autonomous governance participation agent for DAOs",
+            "tech": ["Python", "Open Autonomy", "Snapshot"],
+            "url": "https://github.com/valory-xyz/governatooorr"
+        },
+        {
+            "name": "Contribute",
+            "tagline": "Decentralized contribution tracking for the Olas ecosystem",
+            "tech": ["Python", "Open Autonomy", "IPFS"],
+            "url": "https://contribute.olas.network"
+        },
+        {
+            "name": "Predict",
+            "tagline": "AI-powered prediction market agent using LLMs",
+            "tech": ["Python", "Open Autonomy", "ML"],
+            "url": "https://github.com/valory-xyz/trader"
+        },
+        {
+            "name": "alfred",
+            "tagline": "Linux AI assistant for the command line",
+            "tech": ["Python", "LLM", "Linux"],
+            "url": "https://github.com/dvilelaf/alfred"
+        }
+    ],
+    "youtube": {
+        "channel_url": "https://www.youtube.com/c/DavidVilela0",
+        "featured_videos": [
+            {
+                "id": "buQeA1seFw4",
+                "title": "La simplicidad del caos: células, virus, elecciones y simulaciones"
+            },
+            {
+                "id": "6UnU34WjPwk",
+                "title": "Simulación de una pandemia con y sin confinamiento"
+            },
+            {
+                "id": "DwNE-F_5SuM",
+                "title": "Montando una mini-consola de 8 bits por 5 euros con un ESP32"
+            },
+            {
+                "id": "pilGKjE2MmE",
+                "title": "¿Existe realmente la aleatoriedad? Sesgos, listas de música y loterías"
+            },
+            {
+                "id": "91LmdddpMAY",
+                "title": "Zerpy: coding for the XRP Ledger is now easier than ever"
+            },
+            {
+                "id": "5rRuqzKDy30",
+                "title": "Los bots que no amaban a Alva Majo | Web scraping y bots de Telegram"
+            }
+        ]
+    },
+    "speaking": [
+        {
+            "title": "Olas Dev Academy",
+            "description": "Lead instructor teaching developers to build decentralized AI agents on the Open Autonomy framework",
+            "type": "teaching"
+        },
+        {
+            "title": "Hackathon Mentoring",
+            "description": "Mentor and judge at ETH and Web3 hackathons, supporting the Olas developer ecosystem",
+            "type": "mentoring"
+        },
+        {
+            "title": "University Lecturer",
+            "description": "Taught CAD and SolidWorks courses at the University of A Coruña during PhD",
+            "type": "teaching"
+        },
+        {
+            "title": "YouTube Science Channel",
+            "description": "Educational content on science, technology and programming with 14 videos covering simulations, AI, and hardware projects",
+            "type": "content"
         }
     ],
     "experience": [
@@ -63,7 +162,7 @@
         },
         {
             "date": "2019 - 2020",
-            "title": "Research support technician",
+            "title": "Research Support Technician",
             "subtitle": "Mechanical Engineering Laboratory, University of A Coruña",
             "description": "Conducted advanced research on volumetric force models based on sphere discretizations. Validated theoretical models through rigorous experimentation and authored two research papers presenting novel findings in computer graphics and physics simulation."
         },
@@ -78,12 +177,6 @@
             "title": "Research Assistant",
             "subtitle": "Mechanical Engineering Laboratory, University of A Coruña",
             "description": "Developed a real-time multibody vehicle simulator for hardware-in-the-loop testing of vehicle dynamics. Created a benchmarking platform for multibody algorithms to facilitate international scientific collaboration and performance ranking."
-        },
-        {
-            "date": "2011",
-            "title": "Internship Student",
-            "subtitle": "Department for Urban Planning, Town Hall, Cedeira",
-            "description": ""
         }
     ],
     "education": [
@@ -116,23 +209,18 @@
         },
         {
             "date": "",
-            "title": "Jenkins, From Zero To Expert: Become A Jenkins Master",
+            "title": "Jenkins, From Zero To Expert",
             "subtitle": "Coursera"
         },
         {
             "date": "",
-            "title": "SOLID and Clean Code principles. Write quality code",
+            "title": "SOLID and Clean Code principles",
             "subtitle": "Coursera"
         },
         {
             "date": "2014",
             "title": "C1 Certificate in Advanced English",
             "subtitle": "Cambridge School"
-        },
-        {
-            "date": "2013",
-            "title": "Introduction to Python",
-            "subtitle": "University of A Coruña"
         },
         {
             "date": "2011",
@@ -143,42 +231,33 @@
             "date": "",
             "title": "Introduction to Machine Learning",
             "subtitle": "Stanford University Online"
-        },
-        {
-            "date": "",
-            "title": "Child Education and Support Volunteering",
-            "subtitle": "Nepal Sonríe NGO"
-        },
-        {
-            "date": "2008",
-            "title": "Welding",
-            "subtitle": "Navantia Ferrol"
-        },
-        {
-            "date": "2004",
-            "title": "C Programming",
-            "subtitle": ""
-        },
-        {
-            "date": "2003",
-            "title": "Coastal Skipper",
-            "subtitle": "Nautical and Fishing School, Ferrol"
-        },
-        {
-            "date": "2002",
-            "title": "Basic and Intermediate English, 4 year program",
-            "subtitle": "Official School of Languages, Cedeira"
-        },
-        {
-            "date": "2001",
-            "title": "AutoCad",
-            "subtitle": ""
         }
     ],
     "technologies": [
-        "<b>Core Stack:</b> <b>Python</b>, <b>C++</b>, <b>Multi-Agent Systems (MAS)</b>, <b>Distributed Ledger Technologies (DLT)</b>. Expert in the <b>Open Autonomy</b> and <b>Open AEA</b> frameworks, <b>Tendermint</b>, and <b>IPFS</b> for building decentralized, autonomous services.",
-        "<b>Infrastructure & DevOps:</b> <b>Docker</b>, <b>Kubernetes</b>, and <b>CI/CD</b> pipelines. Experienced in <b>Linux</b> environments and server management.",
-        "<b>Broad Technical Scope:</b> Background in Fortran, Matlab, and Django. Hands-on experience with embedded systems (Raspberry Pi, ESP32), web development (Flask, REST, Websockets), and database management (SQLite)."
+        {
+            "category": "Core Stack",
+            "items": ["Python", "C++", "Multi-Agent Systems", "DLT", "Open Autonomy", "Open AEA", "Tendermint", "IPFS"]
+        },
+        {
+            "category": "Infrastructure & DevOps",
+            "items": ["Docker", "Kubernetes", "CI/CD", "Linux", "Nginx", "Git"]
+        },
+        {
+            "category": "AI & Data",
+            "items": ["Machine Learning", "LLMs", "Sensor Data Processing", "Computer Vision"]
+        },
+        {
+            "category": "Web & APIs",
+            "items": ["Flask", "Django", "REST", "WebSockets", "SQLite"]
+        },
+        {
+            "category": "Hardware & Embedded",
+            "items": ["Raspberry Pi", "ESP32", "VR Haptics", "Electronics"]
+        },
+        {
+            "category": "Other Languages",
+            "items": ["Fortran", "Matlab", "JavaScript", "Solidity"]
+        }
     ],
     "languages": [
         {
