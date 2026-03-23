@@ -305,10 +305,16 @@
     ],
     "experience": [
         {
+            "date": "2025 - Present",
+            "title": "Independent Engineer — Sabbatical",
+            "subtitle": "",
+            "description": "Building personal projects and exploring <b>AI-assisted software development</b>. Currently developing <b>iwa</b>, a Python framework for multi-chain crypto apps and AI agent tooling, and indie games (<a href=\"https://siege.zone\">Siege</a> and <a href=\"https://birus.app\">Birus</a>)."
+        },
+        {
             "date": "2021 - 2025",
-            "title": "Senior Python Engineer / AI Agent Engineer",
+            "title": "Senior Python Engineer / Agent Engineer",
             "subtitle": "Valory AG",
-            "description": "<b>Founding member</b> of the Olas protocol. Contributed to the core of the <b>Open Autonomy</b> and <b>Open AEA</b> frameworks. Designed and implemented decentralized AI agents and economies like <b>Contribute</b>, <b>Governatoooorr</b>, and <b>Agents.fun</b>, and contributed to <b>Mechs</b> and <b>Predict</b>. Led the <b>Olas Dev Academy</b>, teaching developers to build decentralized AI agents. Acted as <b>Dev Rel</b>, mentoring at hackathons and supporting the ecosystem."
+            "description": "<b>Founding member</b> of the Olas protocol. Contributed to the core of the <b>Open Autonomy</b> and <b>Open AEA</b> frameworks. Designed and implemented decentralized AI agents and economies like <b>Contribute</b>, <b>Governatoooorr</b>, and <b>Agents.fun</b>, and contributed to <b>Mechs</b> and <b>Predict</b>. <b>Team Lead</b> of the Agents.fun team, driving architecture decisions and coordinating task planning and distribution across developers. Led the <b>Olas Dev Academy</b>, teaching developers to build decentralized AI agents. Acted as <b>Dev Rel</b>, mentoring at hackathons and supporting the ecosystem."
         },
         {
             "date": "2020 - 2021",
